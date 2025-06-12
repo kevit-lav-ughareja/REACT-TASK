@@ -9,7 +9,6 @@ html {
   min-height: 100vh;
   font-family: "Poppins", sans-serif;
   background: #eef2f5;
-  overflow-y: hidden;
 }
 .form-container {
   background: white;
