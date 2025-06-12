@@ -6,10 +6,10 @@ import { yupResolver } from "@hookform/resolvers/yup";
 import { useNavigate } from "react-router-dom";
 
 const SignupSchema = yup.object().shape({
-  name: yup.string().required("Name is required"),
-  language: yup.string().required("Language is required"),
-  gender: yup.string().required("Gender is required"),
-  college: yup.string().required("College name is required"),
+  name: yup.string().required("⚠️ Name is required"),
+  language: yup.string().required("⚠️ Language is required"),
+  gender: yup.string().required("⚠️ Gender is required"),
+  college: yup.string().required("⚠️ College name is required"),
 });
 
 const CandidateFormPage2 = () => {
